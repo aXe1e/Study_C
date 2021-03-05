@@ -30,16 +30,8 @@ namespace Lesson_005
             {
                 bForFile[i] = Convert.ToByte(Console.ReadLine());
             }
-            File.WriteAllBytes(filename, bForFile);
-
-            byte[] bForFile1 = File.ReadAllBytes(filename);
-
-            for (int i = 0; i < bForFile1.Length; i++)
-            {
-                Console.WriteLine($"{bForFile1[i]}");
-            }
-            Console.ReadKey();
-            */
+            File.WriteAllBytes(filename, bForFile);    
+            */       
         }
     }
 }
